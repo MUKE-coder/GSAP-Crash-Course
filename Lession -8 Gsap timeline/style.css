@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -11,13 +13,18 @@ body {
   align-items: center;
   gap: 4rem;
 }
-
+button {
+  background-color: #f97316;
+  padding: 14px 35px;
+  border: none;
+  cursor: pointer;
+}
 .ball {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color: #f97316;
-  transform: translateX(-900px);
+  /* transform: translateX(-900px); */
 }
 section {
   min-height: 100vh;
